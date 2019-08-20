@@ -16,7 +16,7 @@ variable "s3_bucket_region" {
 variable "s3_bucket_name" {
   type        = "string"
   description = "Name of the S3 bucket to be created used to store the remote state file"
-  default     = "rc-tf-bucket-training-exersize-1-michael2"
+  default     = "rc-tf-bucket-training-exersize-1-michael3"
   }
 
 variable "tag_env" {
