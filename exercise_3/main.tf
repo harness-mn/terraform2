@@ -6,13 +6,13 @@ provider "aws" {
 
 terraform {
    backend "s3" {
-   bucket = "rc-tf-bucket-training-exersize-1-michael2"
+   bucket = "rc-tf-bucket-training-exersize-1-michael3"
    key = "terraform.tfstate"
    region = "us-east-1"
   }
 }
 
-resource "aws_s3_bucket" "rc-tf-bucket-training-exersize-1-michael2" {
+resource "aws_s3_bucket" "rc-tf-bucket-training-exersize-1-michael3" {
   bucket = "${var.s3_bucket_name}"
   acl = "private"
   region = "${var.s3_bucket_region}"
