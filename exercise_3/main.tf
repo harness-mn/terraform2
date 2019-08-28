@@ -7,6 +7,7 @@ provider "aws" {
 terraform {
    backend "s3" {
    bucket = "rc-tf-bucket-training-exercise-1-michael3"
+   key = tfterraform.state
    region = "us-east-1"
   }
 }
